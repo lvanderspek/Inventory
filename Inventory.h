@@ -15,6 +15,7 @@ class Inventory
   public:
     Inventory(string,float,int);
     void sell();
+    int  get_stock();
     friend ostream& operator<<(ostream&, const Inventory&);
 };
 

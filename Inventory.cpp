@@ -17,6 +17,11 @@ void Inventory::sell()
   m_in_stock--;
 }
 
+int Inventory::get_stock()
+{
+    return m_in_stock;
+}
+
 ostream& operator<<(ostream& stream, const Inventory& item)
 {
   stream << item.m_name << " $"
