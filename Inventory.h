@@ -5,6 +5,10 @@
 using std::string;
 using std::ostream;
 
+/* The inventory class is used to keep track of a product. You may sell that
+ * product, or print the product. The class keeps track of the name, price, and
+ * quantity of the item.
+ */
 class Inventory
 {
   private:
